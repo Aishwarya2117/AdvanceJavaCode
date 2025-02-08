@@ -19,7 +19,7 @@ public class DeleteDemo {
       if(count > 0) {
     	  System.out.println("Deleted successfully");
       }
-      else
+      else 
     	  System.out.println("Failed");
 	}
 
