@@ -9,11 +9,11 @@ public class Driver {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		//using variable name inserting data
-		String name1="Sonali";	
-		String email1="Sonali@26";
-		String password1="Sonali@2022";
-		String gender1="female";
-		String city1="bangluru";
+		String name1="Shiva";	
+		String email1="Shiva@26";
+		String password1="Shiva@2022";
+		String gender1="male";
+		String city1="pune";
 		
 		
 		
@@ -27,15 +27,17 @@ public class Driver {
       System.out.println("Successfully created connection");
       //PreparedStatement ps= con.prepareStatement("insert into register values('Aishwarya','Aish@17','Aish@123','female','pune')"); 
      
+      PreparedStatement ps= con.prepareStatement("insert into register values('shivani','shivani@17','shivani@123','female','pune')"); 
+      
       //using variable
      // PreparedStatement ps= con.prepareStatement("insert into register values('"+name1+"','"+email1+"','"+password1+"','"+gender1+"','"+city1+"')"); 
       //using positional parameters
-     PreparedStatement ps= con.prepareStatement("insert into register values(?,?,?,?,?)");
-     ps.setString(1,name1);
-     ps.setString(2,email1);
-     ps.setString(3,password1);
-     ps.setString(4,gender1);
-     ps.setString(5,city1);
+    // PreparedStatement ps= con.prepareStatement("insert into register values(?,?,?,?,?)");
+//     ps.setString(1,name1);
+//     ps.setString(2,email1);
+//     ps.setString(3,password1);
+//     ps.setString(4,gender1);
+//     ps.setString(5,city1);
      
      int i= ps.executeUpdate();  
      if(i>0) {
