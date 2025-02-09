@@ -9,11 +9,11 @@ public class Driver {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		//using variable name inserting data
-		String name1="Shiva";	
-		String email1="Shiva@26";
-		String password1="Shiva@2022";
-		String gender1="male";
-		String city1="pune";
+//		String name1="Shiva";	
+//		String email1="Shiva@26";
+//		String password1="Shiva@2022";
+//		String gender1="male";
+//		String city1="pune";
 		
 		
 		
