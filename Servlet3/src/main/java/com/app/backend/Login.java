@@ -10,11 +10,11 @@ import javax.servlet.http.HttpServletResponse;
 public class Login  extends HttpServlet{
 
 	public Login() {
-		super();
+		super(); 
 	}
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("I m in Service method");
+		System.out.println("In login Service method");
 	}
 	
 	@Override

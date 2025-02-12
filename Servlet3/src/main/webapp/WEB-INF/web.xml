@@ -15,5 +15,14 @@
 <url-pattern>/myLogin</url-pattern>
 </servlet-mapping>
 
+<servlet>
+<servlet-name>register</servlet-name>
+<servlet-class>com.app.backend.Register</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>register</servlet-name>
+<url-pattern>/myRegister</url-pattern>
+</servlet-mapping>
 
 </web-app>
