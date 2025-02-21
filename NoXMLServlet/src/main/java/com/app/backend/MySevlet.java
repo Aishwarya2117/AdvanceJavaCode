@@ -17,7 +17,7 @@ public class MySevlet extends HttpServlet{
    @Override
 	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
 		System.out.println("In service of NoXML");
-		System.out.println("======");
+		System.out.println("=");
 	}
 
 }
