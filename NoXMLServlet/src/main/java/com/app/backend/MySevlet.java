@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@SuppressWarnings("serial")
 @WebServlet("/noXML")
 public class MySevlet extends HttpServlet{
    public MySevlet() {
@@ -15,7 +16,7 @@ public class MySevlet extends HttpServlet{
    }
    
    @Override
-	protected void service(HttpServletRequest arg0, HttpServletResponse arg1) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("In service of NoXML");
 		System.out.println("=");
 	}
